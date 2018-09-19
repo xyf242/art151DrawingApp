@@ -1,4 +1,4 @@
-float fillColor;
+int fillColor;
 int counter;
 
 void setup() {
@@ -7,12 +7,6 @@ void setup() {
   fillColor = #000000;
   counter = 0;
 }
-
-
-  
-    
-
-
 
 void draw() {
   fill(0, 0, 0);
@@ -78,9 +72,11 @@ void draw() {
   }
   if (key == 'f' || key == 'F') {
     counter = 2;
-  }if (key == 'd' || key == 'D') {
+  }
+  if (key == 'd' || key == 'D') {
     counter = 3;
-  }if (key == 'e' || key == 'E') {
+  }
+  if (key == 'e' || key == 'E') {
     counter = 4;
   }
   if (key == 's' || key == 'S') {
